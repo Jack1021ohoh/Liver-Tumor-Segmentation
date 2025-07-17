@@ -31,6 +31,7 @@ HCC-TACE-Seg 切分方式
 - TransUNet Model Architecture
     - 利用pytorch手刻的TransUNet
     - 對應TransUNet裡面的三個檔案
+    - 使用pretrain在imagenet21k的R50+ViT-B_16 weights (可以在以下連結中下載 https://console.cloud.google.com/storage/browser/vit_models;tab=objects?inv=1&invt=Ab2_jg&prefix=&forceOnObjectsSortingFiltering=false)
 - LiTS17 Liver Tumor Segmentation Training
     - 利用LiTS17 dataset訓練TransUNet進行liver tumor segmentation (包含有對loss做weighted以及沒有的這兩種版本)
     - 對應lits_segmentation_transunet.ipynb這個檔案
@@ -43,3 +44,4 @@ HCC-TACE-Seg 切分方式
 ### Others
 - other Python files: 針對LiTS17和HCC-TACE-Seg這兩個資料集的preprocessing
 - 實驗過程進度報告: https://docs.google.com/presentation/d/1qHifSowSVYeCssV_ELl9qHmkAMDc9H4r6INF6ity1lE/edit?usp=sharing
+- TransUNet GitHub repository: https://github.com/Beckschen/TransUNet
