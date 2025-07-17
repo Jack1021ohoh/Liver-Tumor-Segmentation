@@ -15,7 +15,9 @@ python -m pip install -r requirements.txt
 
 ### Dataset 
 使用LiTS17和HCC-TACE-Seg這兩個公開資料集
+
 LiTS17 Source Link: https://competitions.codalab.org/competitions/17094
+
 HCC-TACE-Seg Source Link: https://www.cancerimagingarchive.net/collection/hcc-tace-seg/
 
 LiTS17 切分方式
